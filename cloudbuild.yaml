@@ -8,4 +8,4 @@ steps:
     args: ['push', 'gcr.io/handy-empire-247520/rental-account']
 options:
   machineType: 'N1_HIGHCPU_8' # HIGHCPU로 빌드 스피드 업
-timeout: 1000s # 빌드 자체에 대한 타임 아웃
+timeout: 1000s # 빌드 자체에 대한 타임 아웃.
