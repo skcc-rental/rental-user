@@ -5,7 +5,7 @@
     <groupId>com.skcc.mc</groupId>
     <artifactId>rental-acoount</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <name>rental-acoount</name>
 
     <properties>
