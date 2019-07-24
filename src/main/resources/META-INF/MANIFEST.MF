@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Class-Path: hibernate-jpa-2.1-api-1.0.0.Final.jar commons-collections-
+ 3.2.2.jar tomcat-jdbc-8.5.39.jar spring-boot-starter-tomcat-1.5.20.RE
+ LEASE.jar spring-cloud-starter-netflix-ribbon-1.4.7.RELEASE.jar ribbo
+ n-2.2.5.jar antlr-2.7.7.jar animal-sniffer-annotation-1.0.jar swagger
+ -annotations-1.5.20.jar hibernate-core-5.0.12.Final.jar tomcat-annota
+ tions-api-8.5.39.jar rxjava-1.2.0.jar commons-lang-2.6.jar tomcat-jul
+ i-8.5.39.jar logback-core-1.1.11.jar spring-plugin-metadata-1.2.0.REL
+ EASE.jar validation-api-1.1.0.Final.jar spring-boot-autoconfigure-1.5
+ .20.RELEASE.jar lombok-1.16.22.jar springfox-swagger-common-2.9.2.jar
+  logback-classic-1.1.11.jar spring-webmvc-4.3.23.RELEASE.jar codegen-
+ 0.6.8.jar ecj-4.3.1.jar feign-hystrix-9.5.0.jar spring-jdbc-4.3.23.RE
+ LEASE.jar spring-cloud-starter-1.3.6.RELEASE.jar springfox-schema-2.9
+ .2.jar spring-boot-1.5.20.RELEASE.jar spring-context-4.3.23.RELEASE.j
+ ar javassist-3.21.0-GA.jar jersey-core-1.19.1.jar javax.inject-1.jar 
+ javax.transaction-api-1.2.jar mysql-connector-java-6.0.6.jar httpclie
+ nt-4.5.8.jar guava-20.0.jar bcpkix-jdk15on-1.55.jar jersey-client-1.1
+ 9.1.jar spring-cloud-context-1.3.6.RELEASE.jar feign-slf4j-9.5.0.jar 
+ feign-core-9.5.0.jar spring-security-crypto-4.2.12.RELEASE.jar spring
+ -beans-4.3.23.RELEASE.jar querydsl-jpa-4.1.4.jar jsr305-1.3.9.jar spr
+ ing-cloud-netflix-core-1.4.7.RELEASE.jar rxnetty-contexts-0.4.9.jar c
+ ommons-configuration-1.8.jar spring-boot-starter-data-jpa-1.5.20.RELE
+ ASE.jar jackson-annotations-2.8.0.jar jersey-apache-client4-1.19.1.ja
+ r spring-boot-starter-jdbc-1.5.20.RELEASE.jar spring-cloud-starter-ne
+ tflix-archaius-1.4.7.RELEASE.jar annotations-2.0.1.jar tomcat-embed-w
+ ebsocket-8.5.39.jar springfox-core-2.9.2.jar servo-core-0.10.1.jar jd
+ o-api-3.0.1.jar jboss-logging-3.3.2.Final.jar jsr311-api-1.1.1.jar bc
+ prov-jdk15on-1.55.jar jackson-databind-2.8.11.3.jar hystrix-core-1.4.
+ 26.jar spring-security-rsa-1.0.3.RELEASE.jar netflix-statistics-0.1.1
+ .jar dom4j-1.6.1.jar spring-web-4.3.23.RELEASE.jar jackson-core-2.8.1
+ 1.jar querydsl-apt-4.1.4.jar spring-plugin-core-1.2.0.RELEASE.jar que
+ rydsl-core-4.1.4.jar spring-cloud-commons-1.3.6.RELEASE.jar spring-tx
+ -4.3.23.RELEASE.jar springfox-data-rest-2.9.2.jar rxnetty-0.4.9.jar l
+ og4j-over-slf4j-1.7.26.jar spring-data-rest-webmvc-2.6.20.RELEASE.jar
+  spring-cloud-starter-openfeign-1.4.7.RELEASE.jar tomcat-embed-core-8
+ .5.39.jar spring-hateoas-0.23.0.RELEASE.jar springfox-swagger2-2.9.2.
+ jar archaius-core-0.6.6.jar reflections-0.9.9.jar byte-buddy-1.8.12.j
+ ar spring-cloud-starter-feign-1.4.7.RELEASE.jar netflix-commons-util-
+ 0.1.1.jar aspectjweaver-1.8.14.jar hibernate-validator-5.3.6.Final.ja
+ r ribbon-httpclient-2.2.5.jar ribbon-loadbalancer-2.2.5.jar servo-int
+ ernal-0.10.1.jar spring-boot-starter-logging-1.5.20.RELEASE.jar sprin
+ g-core-4.3.23.RELEASE.jar snakeyaml-1.17.jar bridge-method-annotation
+ -1.13.jar jcl-over-slf4j-1.7.26.jar spring-expression-4.3.23.RELEASE.
+ jar mapstruct-1.2.0.Final.jar springfox-spring-web-2.9.2.jar spring-d
+ ata-jpa-1.11.20.RELEASE.jar rxnetty-servo-0.4.9.jar hibernate-commons
+ -annotations-5.0.1.Final.jar swagger-models-1.5.20.jar tomcat-embed-e
+ l-8.5.39.jar spring-data-rest-core-2.6.20.RELEASE.jar querydsl-codege
+ n-4.1.4.jar springfox-spi-2.9.2.jar slf4j-api-1.7.26.jar spring-aop-4
+ .3.23.RELEASE.jar spring-orm-4.3.23.RELEASE.jar ribbon-core-2.2.5.jar
+  ribbon-transport-2.2.5.jar evo-inflector-1.2.2.jar spring-boot-start
+ er-aop-1.5.20.RELEASE.jar springfox-swagger-ui-2.9.2.jar spring-boot-
+ starter-web-1.5.20.RELEASE.jar spring-aspects-4.3.23.RELEASE.jar myse
+ ma-commons-lang-0.2.4.jar classmate-1.3.4.jar spring-data-commons-1.1
+ 3.20.RELEASE.jar jul-to-slf4j-1.7.26.jar jta-1.1.jar hibernate-entity
+ manager-5.0.12.Final.jar spring-boot-starter-1.5.20.RELEASE.jar jande
+ x-2.0.0.Final.jar httpcore-4.4.11.jar spring-boot-starter-data-rest-1
+ .5.20.RELEASE.jar commons-codec-1.10.jar
+Main-Class: com.skcc.mc.rentalaccount.RentalUserApplication
+
