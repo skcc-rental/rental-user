@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url:  jdbc:mysql://database-1.cuy0kl2qzoel.ap-northeast-2.rds.amazonaws.com?useSSL=false
+    url:  jdbc:mysql://database-1.cuy0kl2qzoel.ap-northeast-2.rds.amazonaws.com/Rental?useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: admin
     password: alzjelql
