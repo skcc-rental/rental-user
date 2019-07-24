@@ -3,9 +3,9 @@ steps:
     args: ['install']
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/handy-empire-247520/rental-user', '.']
-    timeout: 500s
+    timeout: 5000s
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/handy-empire-247520/rental-user']
 options:
   machineType: 'N1_HIGHCPU_8' # HIGHCPU로 빌드 스피드 업
-timeout: 1000s # 빌드 자체에 대한 타임 아웃.
+timeout: 10000s # 빌드 자체에 대한 타임 아웃.
