@@ -145,19 +145,6 @@
                 </executions>
             </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.skcc.mc.rentalaccount.RentalUserApplication</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
 
             <!-- fat jar -->
             <plugin>
@@ -166,6 +153,8 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>com.skcc.mc.rentalaccount.RentalUserApplication</mainClass>
                         </manifest>
                     </archive>
@@ -205,6 +194,18 @@
                             <mainClass>com.skcc.mc.rentalaccount.RentalUserApplication</mainClass>
                         </transformer>
                     </transformers>
+
+                    <filters>
+                        <filter>
+                            <artifact>*:*</artifact>
+                            <excludes>
+                                <exclude>META-INF/*.SF</exclude>
+                                <exclude>META-INF/*.DSA</exclude>
+                                <exclude>META-INF/*.RSA</exclude>
+                            </excludes>
+                        </filter>
+                    </filters>
+                    <!-- Additional configuration. -->
                 </configuration>
                 <executions>
                     <execution>
