@@ -164,7 +164,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.skcc.mc.rentalaccount.RentalAccountApplication</mainClass>
+                            <mainClass>com.skcc.mc.rentalaccount.RentalUserApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
