@@ -21,4 +21,5 @@ public class User extends UserAbstract {
     private String phoneNumber;
     @Column(name="member_type")
     private String memberType;
+    //
 }
