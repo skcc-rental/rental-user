@@ -153,6 +153,7 @@
                 <configuration>
                     <archive>
                         <manifest>
+                            <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                             <mainClass>com.skcc.mc.rentalaccount.RentalUserApplication</mainClass>
                         </manifest>
