@@ -6,6 +6,17 @@ steps:
     timeout: 5000s
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/handy-empire-247520/rental-user']
+  - name: 'gcr.io/cloud-builders/kubectl'
+      args:
+        - set
+        - image
+        - deployment/rental-user #애플리케이션이름
+        - rental-user-sha256=gcr.io/handy-empire-247520/rental-user
+        - -n
+        - default #네임스페이스
+      env:
+        - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-a'
+        - 'CLOUDSDK_CONTAINER_CLUSTER=rental-user-cluster'
 options:
   machineType: 'N1_HIGHCPU_8' # HIGHCPU로 빌드 스피드 업
 timeout: 10000s # 빌드 자체에 대한 타임 아웃.

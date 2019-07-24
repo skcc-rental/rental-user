@@ -111,7 +111,7 @@
                         <configuration>
                             <targetFolder>target/generated-sources/java</targetFolder>
                             <packages>
-                                <package>com.sk.sample</package>
+                                <package>com.skcc.mc</package>
                             </packages>
                         </configuration>
                     </execution>
@@ -141,22 +141,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-
-            <plugin>
-                <!-- Build an executable JAR -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.skcc.mc.rentalaccount.RentalUserApplication</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
             </plugin>
         </plugins>
     </build>
